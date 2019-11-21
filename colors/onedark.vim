@@ -59,12 +59,12 @@ let g:colors_name="onedark"
 " < https://github.com/joshdick/onedark.vim/blob/master/README.md >
 " for more information.)
 if !exists("g:onedark_termcolors")
-  let g:onedark_termcolors = 256
+  let g:onedark_termcolors = 16
 endif
 
 " Not all terminals support italics properly. If yours does, opt-in.
 if !exists("g:onedark_terminal_italics")
-  let g:onedark_terminal_italics = 0
+  let g:onedark_terminal_italics = 1
 endif
 
 " This function is based on one from FlatColor: https://github.com/MaxSt/FlatColor/
